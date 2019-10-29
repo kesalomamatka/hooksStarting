@@ -16,10 +16,10 @@ const Ingredients=() => {
 
     const removeIngredientHandler = (ingredientId) => {
          setUserIngredients(prevIngredients =>
-         prevIngredients.filter(ingredient.id !== ingredientId))
+         prevIngredients.filter(ingredient => ingredient.id !== ingredientId))
     };
 
-    const
+    
   return (
     <div className="App">
       <IngredientForm onAddIngredient={addIngredientHandler}/>
