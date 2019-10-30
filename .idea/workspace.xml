@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b71e4c3-e32d-4a02-a0ca-e5c0a3724938" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Ingredients/IngredientForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ingredients/IngredientForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Ingredients/Ingredients.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ingredients/Ingredients.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Ingredients/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ingredients/Search.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/Ingredients/Ingredients.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
-              <caret line="43" column="81" selection-start-line="43" selection-start-column="81" selection-end-line="43" selection-end-column="81" />
+              <caret line="43" column="83" selection-start-line="43" selection-start-column="83" selection-end-line="43" selection-end-column="83" />
               <folding>
                 <element signature="e#0#62#0" expanded="true" />
               </folding>
@@ -186,12 +184,12 @@
       <updated>1572250253252</updated>
       <workItem from="1572250257259" duration="3932000" />
       <workItem from="1572334949840" duration="2987000" />
-      <workItem from="1572350346701" duration="7111000" />
+      <workItem from="1572350346701" duration="7290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14030000" />
+    <option name="totallyTimeSpent" value="14209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="795" extended-state="0" />
@@ -475,7 +473,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/Ingredients/Ingredients.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
-          <caret line="43" column="81" selection-start-line="43" selection-start-column="81" selection-end-line="43" selection-end-column="81" />
+          <caret line="43" column="83" selection-start-line="43" selection-start-column="83" selection-end-line="43" selection-end-column="83" />
           <folding>
             <element signature="e#0#62#0" expanded="true" />
           </folding>
