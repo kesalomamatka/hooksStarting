@@ -8,7 +8,7 @@ const Search = React.memo(props => {
     const [enteredFilter, setEnteredFilter] = useState('');
     const inputRef = useRef();
     useEffect(()=>{
-        setTimeout(() =>{
+        const timer = setTimeout(() =>{
             if ( enteredFilter === inputRef.current.value){
 
                 const query = enteredFilter.length===0 ? '' :
@@ -19,18 +19,20 @@ const Search = React.memo(props => {
                         console.log(responsecoData);
                         const loadIngredients=[];
 
-                        for (const [key, value] of Object.entries(responsecoData)) {
+                        for (const key in responsecoData) {
                             loadIngredients.push({
                                 id:key,
-                                title:value.title,
-                                amount:value.amount
+                                title:responsecoData[key].title,
+                                amount:responsecoData[key].amount
                             })}
                         onLoadIngredients(loadIngredients);
                     })
             }
 
         },500);
-
+        return ()=>{
+            clearTimeout(timer);
+        };
     },[enteredFilter, onLoadIngredients]);
 
   return (
